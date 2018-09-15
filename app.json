@@ -1,0 +1,7 @@
+{
+	"name": "sigfox backend webhook on Heroku",
+	"descripion": "parser sensor data translate to thingspeak",
+	"image": "heroku/python",
+	"repository": "https://git.heroku.com/agrino-sigfox-backend",
+	"keywords": ["python", "flack"]
+}
