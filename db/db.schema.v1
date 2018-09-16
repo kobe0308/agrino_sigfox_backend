@@ -1,0 +1,13 @@
+
+CREATE TABLE fieldsensor (
+	ts INTEGER PRIMARY KEY,
+    deviceID TEXT NOT NULL,
+    rssi REAL,
+    station TEXT,
+    snr REAL,
+	lat REAL,
+	lng READ,
+	seqNumber INTEGER,
+
+	data TEXT
+);
